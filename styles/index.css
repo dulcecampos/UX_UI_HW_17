@@ -1,0 +1,132 @@
+body{
+    background-color: #FDE4FF;
+    font-family: Montserrat;
+    height: 500px;
+}
+
+.nav{
+    display: flex;
+    text-decoration: none;
+}
+
+.optionmenu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: transparent;
+    border-radius: 27px;
+    height: 44px;
+    width: 127px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    width: 60px;
+    color: #FA00BA;
+}
+
+  /* Change the link color on hover */
+.optionmenu:hover {
+    background-color: white;
+    border-radius: 27px;
+    height: 44px;
+    width: 127px;
+    color: #FA00BA;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+
+.logo{
+    height: 50px;
+    width: 50px;
+    padding-right: 30%;
+    display: flex;
+    justify-content: left;
+    align-items: start;
+}
+
+.menu{
+    color: #FA00BA;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 70%;
+}
+
+.row{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.right{
+    width: 50%;
+    text-align: center;
+}
+
+.title{
+    color: #FA00BA;
+    font-size: 80px;
+    font-weight: bold;
+    width: 50%;
+    padding-left: 25% ;
+}
+
+.description{
+    width: 50%;
+    padding-left: 25%;
+    text-align: left;
+}
+
+.photo{
+    width: 450px;
+    height: 450px;
+}
+
+.button{
+    background-color: #C898FA;
+    width: 522px;
+    height: 50px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 27px;
+    margin-left: 15%;
+}
+
+.footer{
+    background-color: #ED9DFF;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 25px;
+}
+
+.icons{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    padding-right: 70%;
+}
+
+.icons img{
+    width: 50px;
+    height: 50px;
+}
+
+.icon1{
+    padding-right: 10%;
+}
+
+.info{
+    color: white;
+    text-align: left;
+    width: 300px;
+}
+
+
+
